@@ -11,7 +11,7 @@
                                                                            
 		╔═════════════════════════════════════════════════════════════๑◥◣◆◢◤๑══════════════════════════════════════════════════════════════╗                                                                   
 
-								➤ 1. Introducción al Doxxing y la recopilación de información
+								➤ 1. Introducción al OSINT y la recopilación de información
 	
 									➡ 1.1 ¿Qué es el DOXXING?
 									➡ 1.2 ¿Qué es OSINT?
