@@ -3,7 +3,7 @@
 
 ## ÍNDICE
 
-➤ 1. Introducción al OSINT y la recopilación de información
+➤ [1. Introducción al OSINT y la recopilación de información](#1-introduccion)
 
 - ¿Qué es el OSINT?
 - ¿Qué es el Doxxing?
