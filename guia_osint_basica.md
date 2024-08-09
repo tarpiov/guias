@@ -8,11 +8,11 @@
 - ¿Qué es el OSINT?
 - ¿Qué es el Doxxing?
 
-➤ 2. Tipos de OSINT
+➤ 2. [Tipos de OSINT](#2-tipos-de-osint)
 
 - OSINT a Individuales o Empresas
 
-➤ 3. Guía OSINT a Individuales (Básico)
+➤ 3. [Guía OSINT a Individuales (Básico)](#3-guía-de-osint-a-individuales)
 
 - Métodos de identificación de nombre de usuario
 	+ Googe Dorking
