@@ -46,11 +46,7 @@
 
 - OSINT (Open Source Intelligence) es la recopilación y análisis de información obtenida de fuentes abiertas, osea recursos que están públicos alrededor de internet, como medios de comunicación, redes sociales... en esta guía enseñaré la forma optimizada de llevar a cabo OSINT, utilizando herramientas que nos permiten hacer la búsqueda de los recursos mucho mas rápida y eficiente.
 
----
-
 ## 2. Identificación de usuarios
-
----
 
 ### Google Dorking
 
@@ -67,7 +63,7 @@
 
 - Para esto usaremos la web de https://instantusername.com/ y escribiremos el nombre de usuario que queremos identificar en la gran cantidad de redes sociales disponibles
 
-> <img src="https://media.discordapp.net/attachments/1271315816675016769/1271417636101689385/image.png?ex=66b74372&is=66b5f1f2&hm=17dfe8b9428fd8e90720925bdf78b26db49ea3d6a9fb27b08f2ee8cc9ce5c6dd&=&format=webp&quality=lossless&width=825&height=505" >
+> <img src="https://media.discordapp.net/attachments/1271315816675016769/1271417636101689385/image.png?ex=66b74372&is=66b5f1f2&hm=17dfe8b9428fd8e90720925bdf78b26db49ea3d6a9fb27b08f2ee8cc9ce5c6dd&=&format=webp&quality=lossless&width=500" >
 
 > Podéis usar herramientas como theHarvester o sherlock para esta labor, pero en mi preferencia instanusername es mejor por su rapidez, facilidad de uso y alta enumeración de redes sociales.
 
@@ -76,13 +72,11 @@
 
 ## 3. Identificación de dominios
 
----
-
 ### Censys
 
 - **Uso de la herramienta Censys**: Para usar esta herramienta, primero deberemos ir a la página oficial de esta, la cual es: https://search.censys.io/ una vez aquí, escribiremos el dominio (o IP) en la barra de búsqueda, y estos son los resultados que obtendremos: 
 
-> <img src="https://media.discordapp.net/attachments/1271315816675016769/1271416791104622703/Captura_de_pantalla_2024-08-09_121413.png?ex=66b742a8&is=66b5f128&hm=2c51fb267be10280298d59736d0aa80f8125104c8996a78b6f2e97c351ebb98f&=&format=webp&quality=lossless&width=1213&height=1357" width=500px>
+> <img src="https://media.discordapp.net/attachments/1271315816675016769/1271416791104622703/Captura_de_pantalla_2024-08-09_121413.png?ex=66b742a8&is=66b5f128&hm=2c51fb267be10280298d59736d0aa80f8125104c8996a78b6f2e97c351ebb98f&=&format=webp&quality=lossless&width=500" width=500px>
 
 - **Campos interesantes**
 	+ `Autonomous System`: Información sobre la red o el proovedor de servicios de internet del dominio
@@ -96,11 +90,11 @@
 
 - **Uso de la herramienta shodan**:  Shodan es un motor de búsqueda especializado que permite a los usuarios encontrar dispositivos conectados a Internet, como servidores, cámaras, routers, y sistemas de control industrial. Para usar shodan primero entraremos en está página:   https://www.shodan.io/ y nos registraremos
 
-> <img src="https://media.discordapp.net/attachments/1271315816675016769/1271416781906640968/Captura_de_pantalla_2024-08-09_122311.png?ex=66b742a6&is=66b5f126&hm=e1ba48e705c97e5a1345ddca0575572a0280c706559a97046e1c1dc539609fa2&=&format=webp&quality=lossless&width=2506&height=192">
+> <img src="https://media.discordapp.net/attachments/1271315816675016769/1271416781906640968/Captura_de_pantalla_2024-08-09_122311.png?ex=66b742a6&is=66b5f126&hm=e1ba48e705c97e5a1345ddca0575572a0280c706559a97046e1c1dc539609fa2&=&format=webp&quality=lossless&width=500">
 
 - En el buscador de shodan podemos usar dorks, algo similar a lo de Google, podemos por ejemplo usar un dork para filtrar por ciudad:
 
-> <img src="https://media.discordapp.net/attachments/1271315816675016769/1271416775849938974/Captura_de_pantalla_2024-08-09_122415.png?ex=66b742a5&is=66b5f125&hm=51f0f62057a1c0c3604d762223e7b0b472fe9a409fc1b02934c3e6c55451187c&=&format=webp&quality=lossless&width=2734&height=1357">
+> <img src="https://media.discordapp.net/attachments/1271315816675016769/1271416775849938974/Captura_de_pantalla_2024-08-09_122415.png?ex=66b742a5&is=66b5f125&hm=51f0f62057a1c0c3604d762223e7b0b472fe9a409fc1b02934c3e6c55451187c&=&format=webp&quality=lossless&width=500">
 
 > En este caso he filtrado por la ciudad de Barcelona usando el dork `city:`
 
@@ -122,15 +116,13 @@
 
 - Entraremos a la web https://www.phonebook.cz (debemos estar registrados con Intelx), luego usaremos la opción "Emails Adresses" y finalmente escribiremos nuestro dominio
 
-> <img src="https://media.discordapp.net/attachments/1271315816675016769/1271416757667631227/Captura_de_pantalla_2024-08-09_123106.png?ex=66b742a0&is=66b5f120&hm=605a0a297ce86141fcd346c8982017953d7618e59feb1212d3e70465961f1d15&=&format=webp&quality=lossless&width=856&height=1356" width=500px>
+> <img src="https://media.discordapp.net/attachments/1271315816675016769/1271416757667631227/Captura_de_pantalla_2024-08-09_123106.png?ex=66b742a0&is=66b5f120&hm=605a0a297ce86141fcd346c8982017953d7618e59feb1212d3e70465961f1d15&=&format=webp&quality=lossless&width=500" width=500px>
 
 > Nota: también podemos usar la opción `Domains` y efectuar una búsqueda por subdominios similar a Sublist3r (pero puede ser incluso mas efectiva)
 
 ---
 
 ## 4. Extacción de metadatos
-
----
 
 ### Exiftool
 
@@ -143,8 +135,6 @@
 ---
 
 ## 5. Información de IPS
-
----
 
 ### Uso de la api de Ipinfo
 
@@ -166,8 +156,6 @@
 
 ## 6. Identificación de correos electrónicos
 
----
-
 ### Epieos
 
 - Para esto iremos a la web de https://epieos.com/?q=testtest12%40gmail.com&t=email y buscaremos un correo electrónico
@@ -177,8 +165,6 @@
 ---
 
 ## 7. Filtraciones de datos
-
----
 
 ### Bot de OSINT Industries
 
@@ -209,8 +195,6 @@
 ---
 
 ## 8. Anonimato y privacidad
-
----
 
 ### Uso de correos temporales
 
