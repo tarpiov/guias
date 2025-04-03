@@ -12,21 +12,21 @@ Teniendo claro lo anterior, debemos entender que dependiendo de el nivel de priv
 
 1. Anonimato general
 
-	1. Búsqueda segura en internet
-	2. Contraseñas y 2FA
-	3. Correo electrónico seguro
-	4. VPNs y la red en general
-	5. Almacenamiento Seguro
-	6. Pagos Anónimos
-	7. Filtraciones de datos
+	1. [Búsqueda segura en internet](#búsqueda-segura-en-internet)
+	2. [Contraseñas y 2FA](#contraseñas-y-2fa)
+	3. [Correo electrónico seguro](#correo-electrónico-seguro)
+	4. [VPNs y la red en general](#vpn-y-la-red-en-general)
+	5. [Almacenamiento Seguro](#almacenamiento-seguro)
+	6. [Pagos Anónimos](#pagos-anónimos)
+	7. [Filtraciones de datos](#filtraciones-de-datos)
 
 2. Creación de tu identidad anónima digital
 
-	1. Elección de los datos para tu identidad
-	2. Estilometría
-	3. Perfil biométrico
-	4. Finanzas seguras
-	5. Uso de números virtuales
+	1. [Elección de los datos para tu identidad](#elección-de-los-datos-para-tu-identidad)
+	2. [Estilometría](#estilometría)
+	3. [Perfil biométrico](#pefil-biométrico)
+	4. [Finanzas seguras](#finanzas-seguras)
+	5. [Uso de números virtuales](#uso-de-números-virtuales)
 
 # Anonimato general
 ## Búsqueda segura en internet
